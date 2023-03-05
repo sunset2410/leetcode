@@ -1,3 +1,8 @@
+https://vn.spoj.com/status/
+
+https://vnspoj.github.io/problems/BONES.html
+
+http://vnspoj.blogspot.com/p/blog-page_30.html
 
 sudo apt-get update
 sudo apt-get install gdb
