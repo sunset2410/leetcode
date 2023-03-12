@@ -1,0 +1,8 @@
+https://cppcheck.sourceforge.io/
+
+
+//install cpp check in ubuntu
+sudo apt-get install cppcheck
+
+//check
+cppcheck --enable=all main.cpp
