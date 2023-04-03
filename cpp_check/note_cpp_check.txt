@@ -1,5 +1,24 @@
+
+
+https://github.com/danmar/cppcheck/blob/main/man/manual.md
+
+cppcheck --addon=misra.json somefile.c
+
+{
+    "script": "misra.py",
+    "args": [
+        "--rule-texts=misra.txt"
+    ]
+}
+
+cppcheck --addon=misra.py somefile.c
+
+cppcheck --addon=misra.py somefile.c
+
+
 https://cppcheck.sourceforge.io/
 
+https://github.com/danmar/cppcheck
 
 //install cpp check in ubuntu
 sudo apt-get install cppcheck

@@ -1,20 +1,13 @@
 #include<iostream>
+#include<string>
+#include<vector>
 using namespace std;
 
-// void foo(int x)
-// {
-//     int buf[10];
-//     if (x == 1000)
-//         buf[x] = 0; // <- ERROR
-// }
-
 int main() {
-    //foo(8);
-    int *ptr;
-    int array[10];
-    *ptr = 5;
-    array[100] = 10;
-
-
+    vector<int> v = {1,5,6,7,8,9};
+    for(auto it = v.begin(); it != v.end(); ) {
+        cout << *it << " ";
+        it++;
+    }
     return 0;
 }
